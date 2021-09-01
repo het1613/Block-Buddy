@@ -13,10 +13,13 @@ The extension uses a JavaScript backend alongside Chrome Storage Sync API to sav
 
 # Usage
 I am in the process of publishing this extension onto the Chrome Web Store. Until then, to use the extension:
-- Git clone this repo onto your computer
-- Go to "Manage Extensions" tab on Google Chrome
-- Turn on developer mode and click "Load Unpacked"
-- Upload the project file and enjoy!
+1. Git clone this repo onto your computer
+```
+git clone https://github.com/het1613/Block-Buddy.git
+```
+2. Go to "Manage Extensions" tab on Google Chrome
+3. Turn on developer mode and click "Load Unpacked"
+4. Upload the project file and enjoy!
 
 ![](https://github.com/het1613/Block-Buddy/blob/master/Screenshots/netflix_blocked_cropped.jpg?raw=true)
 ![](https://github.com/het1613/Block-Buddy/blob/master/Screenshots/youtube_blocked_cropped.jpg?raw=true)
