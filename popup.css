@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Noto Sans JP;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.8em;
+}
+
+label{
+    font-size: 1.5em;
+}
+
+body{
+    width:470px;
+    background-color: white;
+    border: 5px solid rgb(59, 131, 59);
+}
+
+#title{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(206, 35, 35);
+}
+
+#schedule-title{
+    padding: 0px 10px 10px 20px;
+    color: green;
+}
+
+.schedule{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.option input{
+    margin-left: 20px;
+}
+
+#auto-option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 43px;
+    display: none;
+}
+
+.to{
+    padding-left: 21px;
+    margin-top: 10px;
+}
+
+.websites{
+    display: flex;
+    justify-content: space-between;
+}
+
+.website-list{
+    margin: 20px;
+}
+
+.website-title{
+    margin-bottom: 10px;
+    color: green;
+}
+
+#savebtn{
+    cursor: pointer;
+    margin-left: 225px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid green;
+    color: green;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#savebtn:hover{
+    background-color: rgba(0, 128, 0, 0.541);
+    color: black;
+}
+
+#status{
+    margin: 0px 0px 20px 20px;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+}

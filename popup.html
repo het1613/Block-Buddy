@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  <link rel='stylesheet' href='popup.css'>
+  
+  <title>Block Buddy</title>
+</head>
+<body>
+
+  <h1 id='title'>Block Buddy</h1>
+  <h2 id='schedule-title'>Schedule</h2>
+  <div class="schedule">
+    <div class='option'>
+      <input type="radio" id="off" name="schedule" value="OFF">
+      <label for="off">Off</label>
+    </div>
+    
+    <div class='option'>
+      <input type="radio" id="on" name="schedule" value="ON">
+      <label for="on">Always On</label>
+    </div>
+    
+    <div class='option'>
+      <input type="radio" id="auto" name="schedule" value="AUTOMATIC">
+      <label for="auto">Automatic</label>
+
+      <div id='auto-option'>
+        <div class='from'>
+          <label for="auto-from">From:</label>
+          <input type="time" id="auto-from" name="auto-from" required>
+        </div>
+
+        <div class='to'>
+          <label for="auto-to">To:</label>
+          <input type="time" id="auto-to" name="auto-to" required>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class='website-list'>
+    <h2 class='website-title'>Blocked Social Media Websites</h2>
+    <div class='websites'>
+      <div id='column1' class='column'>
+        <div class='youtube-box'>
+          <input type="checkbox" id="youtube" name="youtube" value="youtube" checked>
+          <label for="youtube">YouTube</label>
+        </div>
+  
+        <div class='netflix-box'>
+          <input type="checkbox" id="netflix" name="netflix" value="netflix" checked>
+          <label for="netflix">Netflix</label>
+        </div>
+  
+        <div class='disney-box'>
+          <input type="checkbox" id="disney" name="disney" value="disneyplus" checked>
+          <label for="disney">Disney+</label>
+        </div>
+        
+        <div class='prime-box'>
+          <input type="checkbox" id="prime" name="prime" value="primevideo" checked>
+          <label for="prime">Prime Video</label>
+        </div>
+        
+        <div class='hulu-box'>
+          <input type="checkbox" id="hulu" name="hulu" value="hulu" checked>
+          <label for="hulu">Hulu</label>
+        </div>
+        
+        <div class='twitch-box'>
+          <input type="checkbox" id="twitch" name="twitch" value="twitch" checked>
+          <label for="twitch">Twitch</label>
+        </div>
+      </div>
+  
+      <div id='column2' class='column'>
+        <div class='facebook-box'>
+          <input type="checkbox" id="facebook" name="facebook" value="facebook" checked>
+          <label for="facebook">Facebook</label>
+        </div>
+  
+        <div class='whatsapp-box'>
+          <input type="checkbox" id="whatsapp" name="whatsapp" value="web.whatsapp" checked>
+          <label for="whatsapp">Whatsapp</label>
+        </div>
+  
+        <div class='instagram-box'>
+          <input type="checkbox" id="instagram" name="instagram" value="instagram" checked>
+          <label for="instagram">Instagram</label>
+        </div>
+        
+        <div class='messenger-box'>
+          <input type="checkbox" id="messenger" name="messenger" value="messenger" checked>
+          <label for="messenger">Messenger</label>
+        </div>
+        
+        <div class='discord-box'>
+          <input type="checkbox" id="discord" name="discord" value="discord" checked>
+          <label for="discord">Discord</label>
+        </div>
+      </div>
+      
+      <div id='column3' class='column'>
+        <div class='tiktok-box'>
+          <input type="checkbox" id="tiktok" name="tiktok" value="tiktok" checked>
+          <label for="tiktok">TikTok</label>
+        </div>
+  
+        <div class='wechat-box'>
+          <input type="checkbox" id="wechat" name="wechat" value="wechat" checked>
+          <label for="wechat">WeChat</label>
+        </div>
+  
+        <div class='tumblr-box'>
+          <input type="checkbox" id="tumblr" name="tumblr" value="tumblr" checked>
+          <label for="tumblr">Tumblr</label>
+        </div>
+        
+        <div class='twitter-box'>
+          <input type="checkbox" id="twitter" name="twitter" value="twitter" checked>
+          <label for="twitter">Twitter</label>
+        </div>
+        
+        <div class='reddit-box'>
+          <input type="checkbox" id="reddit" name="reddit" value="reddit" checked>
+          <label for="reddit">Reddit</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="status"></div>
+  <button type='button' id='savebtn'>Save</button>
+
+  <script src='popup.js'></script>
+</body>
+</html>
