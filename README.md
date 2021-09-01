@@ -1,4 +1,4 @@
-# Block Buddy 
+# Block Buddy
 
 ![](https://github.com/het1613/Block-Buddy/blob/master/Screenshots/zoomed.jpg?raw=true)
 
