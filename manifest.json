@@ -11,7 +11,24 @@
     ],
     "icons": { "48": "icon.png", "128": "icon.png" },
     "permissions": [
-        "storage"
+        "storage",
+        "https://www.youtube.com/*",
+        "https://www.facebook.com/*",
+        "https://www.netflix.com/*",
+        "https://www.twitch.tv/*",
+        "https://www.primevideo.com/*",
+        "https://www.hulu.com/*",
+        "https://www.disneyplus.com/*",
+        "https://www.web.whatsapp.com/*",
+        "https://www.discord.com/*",
+        "https://www.messenger.com/*",
+        "https://www.wechat.com/*",
+        "https://www.instagram.com/*",
+        "https://www.tumblr.com/*",
+        "https://www.tiktok.com/*",
+        "https://www.twitter.com/*",
+        "https://www.reddit.com/*"
+
     ],
     "browser_action": {
         "default_popup": "Popup.html",
