@@ -2,6 +2,7 @@
     "manifest_version": 2,
     "name": "Block Buddy",
     "version": "0.0.1",
+    "description": "A simple extension to boost productivity by blocking social media sites during study/work hours.",
     "content_scripts": [
         {
             "matches":["<all_urls>"],
