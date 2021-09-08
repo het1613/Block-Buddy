@@ -16,7 +16,7 @@ Often times while I'm studying, I procastinate and wander off to social media si
 The extension uses a JavaScript backend alongside Chrome Storage Sync API to save user preferences across all devices. It also utilizes a frontend developed using HTML, CSS and JS. 
 
 # Usage
-If you just want to downlaod the extension, you can do that here: [Block Buddy](https://chrome.google.com/webstore/detail/block-buddy/ajoeonnfejlknojbinailjkdcnjkagmo/)
+If you just want to downlaod the extension, you can do that here: [Block Buddy](https://chrome.google.com/webstore/detail/block-buddy/ajoeonnfejlknojbinailjkdcnjkagmo/).
 If you want to download the actual project, follow these steps:
 1. Git clone this repo onto your computer
 ```
