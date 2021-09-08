@@ -1,6 +1,10 @@
-# Block Buddy
+# [Block Buddy](https://chrome.google.com/webstore/detail/block-buddy/ajoeonnfejlknojbinailjkdcnjkagmo/)
+
+A simple extension to boost productivity by blocking social media sites during study/work hours. You can download the extension [here](https://chrome.google.com/webstore/detail/block-buddy/ajoeonnfejlknojbinailjkdcnjkagmo/).
 
 ![](https://github.com/het1613/Block-Buddy/blob/master/Screenshots/zoomed.jpg?raw=true)
+
+[Block Buddy](https://chrome.google.com/webstore/detail/block-buddy/ajoeonnfejlknojbinailjkdcnjkagmo/)
 
 # Introduction
 A Chrome Extension to boost productivity by blocking social media sites during study/work hours. Users have the option to select/deselect which websites they choose to block. They also have the ability to turn off the blocker, keep it always on or follow an automatic schedule (aka the user's study/working hours).
@@ -12,7 +16,8 @@ Often times while I'm studying, I procastinate and wander off to social media si
 The extension uses a JavaScript backend alongside Chrome Storage Sync API to save user preferences across all devices. It also utilizes a frontend developed using HTML, CSS and JS. 
 
 # Usage
-I am in the process of publishing this extension onto the Chrome Web Store. Until then, to use the extension:
+If you just want to downlaod the extension, you can do that here: [Block Buddy](https://chrome.google.com/webstore/detail/block-buddy/ajoeonnfejlknojbinailjkdcnjkagmo/)
+If you want to download the actual project, follow these steps:
 1. Git clone this repo onto your computer
 ```
 git clone https://github.com/het1613/Block-Buddy.git
